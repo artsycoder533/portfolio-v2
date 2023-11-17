@@ -1,9 +1,9 @@
 import Image from 'next/image'
+import MinimalFooter from './components/MinimalFooter'
+import ClassicHeader from './components/ClassicHeader'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      
-    </main>
+  <>home</>
   )
 }
