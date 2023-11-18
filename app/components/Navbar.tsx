@@ -22,12 +22,12 @@ const Navbar = (props: Props) => {
     if (open) {
       document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = "scroll";
+      document.body.style.overflowY = "auto";
     }
 
-    // Cleanup function to reset the style when the component unmounts or when the 'open' state changes.
+    // // Cleanup function to reset the style when the component unmounts or when the 'open' state changes.
     return () => {
-      document.body.style.overflow = "scroll";
+      document.body.style.overflowY = "auto";
     };
   }, [open]);
 
@@ -40,7 +40,7 @@ const Navbar = (props: Props) => {
       </div>
       <ul
         className={
-          "flex flex-col md:flex-row gap-12 md:gap-8 items-center w-full md:w-auto justify-center md:justify-end absolute md:static top-[60px] left-0 right-0 h-[calc(100vh-91px)] md:h-auto bg-white transition-all ease-in-out duration-500 " +
+          "flex flex-col md:flex-row gap-12 md:gap-8 items-center w-full md:w-auto justify-center md:justify-end absolute md:static top-[60px] left-0 right-0 h-[calc(100vh-60px)] md:h-auto bg-white transition-all ease-in-out duration-500 " +
           (open ? "translate-x-0" : "translate-x-[100vh] md:translate-x-0")
         }
       >
