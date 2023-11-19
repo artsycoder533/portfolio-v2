@@ -9,7 +9,7 @@ import { useEffect } from "react";
 const navItems = [
   { link: "Home", path: "/" },
   { link: "Projects", path: "#projects" },
-  { link: "About", path: "#about" },
+  { link: "Skills", path: "#skills" },
   { link: "Contact", path: "#contact" },
 ];
 
@@ -51,7 +51,7 @@ const Navbar = (props: Props) => {
               <Link
                 className="text-2xl md:text-base hover:underline py-2 hover:text-[#1A8B90]"
                 href={path}
-                scroll={false}
+                scroll={true}
                 onClick={() => setOpen(false)}
               >
                 {link}

@@ -8,7 +8,7 @@ type Props = {}
 
 const Hero = (props: Props) => {
   return (
-    <section className="mt-[60px]">
+    <section className="mt-[60px]" id="home">
       <div className="max-w-[1400px] w-[90vw] mx-auto flex flex-row justify-between">
       <div className="flex flex-col justify-center">
         <h1 className="text-7xl font-semibold">Natasha Johnson</h1>
