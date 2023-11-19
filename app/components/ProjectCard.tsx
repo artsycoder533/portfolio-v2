@@ -55,12 +55,16 @@ function ProjectCard({
       <div className="flex flex-row gap-2 mt-auto">
           <Link
             href={siteURL}
+            rel="noopener noreferrer"
+            target="_blank"
             className="flex flex-row gap-1 items-center border bg-blue-500 text-white rounded px-3 py-2 hover:bg-blue-700 flex-shrink-0"
           >
             Live Site <FaExternalLinkAlt />
           </Link>
           <Link
             href={github}
+            rel="noopener noreferrer"
+            target="_blank"
             className="flex flex-row gap-1 items-center border border-blue-500 text-blue-500 rounded px-3 py-2 hover:bg-blue-200 flex-shrink-0"
           >
             See Code <FaGithub />

@@ -17,14 +17,15 @@ function MinimalFooter({}: Props) {
     return date.getFullYear();
   };
   return (
-    <footer className="flex flex-col sticky w-full mt-auto pt-4 px-4 bg-gray-500">
+    <footer className="flex flex-col sticky w-full mt-auto pt-8 px-4 bg-gray-500">
       <div className="max-w-[1400px] w-[90vw] mx-auto">
-        <div className="flex flex-col gap-6 sm:flex-row items-center justify-between mb-4">
+        <div className="flex flex-col gap-6 sm:flex-row items-center justify-between mb-6">
           <p className="text-3xl font-bold">{"<NJ />"}</p>
           <div className="flex space-x-6">
             <Link
               href="https://github.com/artsycoder533"
               rel="noopener noreferrer"
+              target="_blank"
               aria-label="Github"
             >
               <FaGithub
@@ -35,6 +36,7 @@ function MinimalFooter({}: Props) {
             <Link
               href="https://www.youtube.com/channel/UCOGjYAACGwNLzYcTpXnvZ_Q"
               rel="noopener noreferrer"
+              target="_blank"
               aria-label="Youtube"
             >
               <FaYoutube
@@ -45,6 +47,7 @@ function MinimalFooter({}: Props) {
             <Link
               href="https://codepen.io/artsycoder"
               rel="noopener noreferrer"
+              target="_blank"
               aria-label="Codepen"
             >
               <FaCodepen
@@ -55,6 +58,7 @@ function MinimalFooter({}: Props) {
             <Link
               href="https://twitter.com/artsycoder533"
               rel="noopener noreferrer"
+              target="_blank"
               aria-label="Twitter"
             >
               <FaTwitter
