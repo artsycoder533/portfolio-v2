@@ -25,10 +25,10 @@ function ProjectCard({
 }: Props) {
   return (
     <div className="border flex flex-col gap-6 p-4 rounded-lg bg-white shadow-md">
-      <div className="w-full h-[200px] bg-red-500 relative">
+      <div className="w-full h-[200px] relative">
         <Image
           src={img?.src}
-          // width={600}
+          // width={450}
           // height={250}
           fill
           alt="Omni Addictional & Mental Health Services home page"
