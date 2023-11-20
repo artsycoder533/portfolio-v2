@@ -34,13 +34,12 @@ const Navbar = (props: Props) => {
   return (
     <nav className="flex items-center justify-between max-w-[1400px]  flex-col md:flex-row md:w-full mx-auto py-2">
       <div className="flex items-center justify-between w-full md:w-auto">
-        <p className="text-xl font-bold">{'<NJ />'}</p>
-
+        <p className="text-2xl font-bold text-accent">{'<NJ />'}</p>
         <RotatingHamburger open={open} setOpen={setOpen} />
       </div>
       <ul
         className={
-          "flex flex-col md:flex-row gap-12 md:gap-8 items-center w-full md:w-auto justify-center md:justify-end absolute md:static top-[60px] left-0 right-0 h-[calc(100vh-60px)] md:h-auto bg-white transition-all ease-in-out duration-500 " +
+          "flex flex-col md:flex-row gap-12 md:gap-8 items-center w-full md:w-auto justify-center md:justify-end absolute md:static top-[80px] left-0 right-0 h-[calc(100vh-80px)] md:h-auto bg-primary transition-all ease-in-out duration-500 " +
           (open ? "translate-x-0" : "translate-x-[100vh] md:translate-x-0")
         }
       >
@@ -49,7 +48,7 @@ const Navbar = (props: Props) => {
           return (
             <li key={index}>
               <Link
-                className="text-2xl md:text-base hover:underline py-2 hover:text-[#1A8B90]"
+                className="text-2xl md:text-base hover:underline py-2 hover:text-accent underline-offset-8"
                 href={path}
                 scroll={true}
                 onClick={() => setOpen(false)}

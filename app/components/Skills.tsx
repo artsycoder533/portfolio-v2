@@ -7,9 +7,9 @@ type Props = {}
 
 const Skills = (props: Props) => {
   return (
-    <section className="border py-14" id="skills">
-        <h2 className="text-6xl my-8 font-semibold max-w-[1400px] w-[90vw] mx-auto">Skills.</h2>
-        <div className="max-w-[1400px] w-[90vw] mx-auto grid grid-cols-4 justify-center text-2xl font-medium text-gray-500 gap-16">
+    <section className="border py-32 bg-primary" id="skills">
+        <h2 className="text-6xl mb-10 font-semibold max-w-[1400px] w-[90vw] mx-auto text-secondary">Skills.</h2>
+        <div className="max-w-[1400px] w-[90vw] mx-auto grid grid-cols-4 justify-center text-2xl font-medium text-accent gap-16">
             <div className="flex flex-col items-center gap-1 text-center">
                 <SiNextdotjs className="text-7xl"/>
                 <p>Next.js</p>

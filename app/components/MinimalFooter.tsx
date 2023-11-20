@@ -17,10 +17,10 @@ function MinimalFooter({}: Props) {
     return date.getFullYear();
   };
   return (
-    <footer className="flex flex-col sticky w-full mt-auto pt-8 px-4 bg-gray-500">
+    <footer className="flex flex-col sticky w-full mt-auto pt-8 px-4 bg-primary text-white">
       <div className="max-w-[1400px] w-[90vw] mx-auto">
         <div className="flex flex-col gap-6 sm:flex-row items-center justify-between mb-6">
-          <p className="text-3xl font-bold">{"<NJ />"}</p>
+          <p className="text-3xl font-bold text-accent">{"<NJ />"}</p>
           <div className="flex space-x-6">
             <Link
               href="https://github.com/artsycoder533"
@@ -29,7 +29,7 @@ function MinimalFooter({}: Props) {
               aria-label="Github"
             >
               <FaGithub
-                className="text-3xl hover:text-[#26CCAF]"
+                className="text-3xl hover:text-accent"
                 alt="Github"
               />
             </Link>
@@ -40,7 +40,7 @@ function MinimalFooter({}: Props) {
               aria-label="Youtube"
             >
               <FaYoutube
-                className="text-3xl hover:text-[#26CCAF]"
+                className="text-3xl hover:text-accent"
                 alt="Youtube"
               />
             </Link>
@@ -51,7 +51,7 @@ function MinimalFooter({}: Props) {
               aria-label="Codepen"
             >
               <FaCodepen
-                className="text-3xl hover:text-[#26CCAF]"
+                className="text-3xl hover:text-accent"
                 alt="Codepen"
               />
             </Link>
@@ -62,19 +62,19 @@ function MinimalFooter({}: Props) {
               aria-label="Twitter"
             >
               <FaTwitter
-                className="text-3xl hover:text-[#26CCAF]"
+                className="text-3xl hover:text-accent"
                 alt="Twitter"
               />
             </Link>
           </div>
-          <Link href="#home" className="flex flex-row gap-2 items-center">
+          <Link href="#home" className="flex flex-row gap-2 items-center text-accent hover:text-secondary">
             Back to Top <FaArrowUp />
           </Link>
         </div>
 
         <div className="flex flex-row items-center justify-center py-4 border-t border-black w-full">
           <p className=" flex flex-row  items-center  justify-center gap-1 text-xs w-full">
-            &copy; {getDate()} All Rights Reserved. Made with <FaHeart /> by:
+            &copy; {getDate()} All Rights Reserved. Made with <FaHeart className="text-red-500"/> by:
             Natasha Johnson
           </p>
         </div>

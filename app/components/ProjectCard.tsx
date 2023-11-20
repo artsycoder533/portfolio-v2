@@ -24,7 +24,7 @@ function ProjectCard({
   github,
 }: Props) {
   return (
-    <div className="border flex flex-col gap-6 p-4 rounded-lg">
+    <div className="border flex flex-col gap-6 p-4 rounded-lg bg-white shadow-md">
       <div className="w-full h-[200px] bg-red-500 relative">
         <Image
           src={img?.src}
@@ -41,7 +41,7 @@ function ProjectCard({
             {tags.map((tag) => (
               <span
                 key="tag"
-                className="border self-start px-2 rounded-xl bg-green-400"
+                className="border self-start px-2 rounded-xl bg-background"
               >
                 {tag}
               </span>
@@ -57,7 +57,7 @@ function ProjectCard({
             href={siteURL}
             rel="noopener noreferrer"
             target="_blank"
-            className="flex flex-row gap-1 items-center border bg-blue-500 text-white rounded px-3 py-2 hover:bg-blue-700 flex-shrink-0"
+            className="flex flex-row gap-1 items-center border bg-accent hover:bg-secondary text-white rounded px-3 py-2 flex-shrink-0"
           >
             Live Site <FaExternalLinkAlt />
           </Link>
@@ -65,7 +65,7 @@ function ProjectCard({
             href={github}
             rel="noopener noreferrer"
             target="_blank"
-            className="flex flex-row gap-1 items-center border border-blue-500 text-blue-500 rounded px-3 py-2 hover:bg-blue-200 flex-shrink-0"
+            className="flex flex-row gap-1 items-center border border-accent text-accent hover:border-secondary hover:text-secondary rounded px-3 py-2 flex-shrink-0"
           >
             See Code <FaGithub />
           </Link>
