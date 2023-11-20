@@ -29,7 +29,7 @@ const RotatingHamburger = ({open, setOpen}: Props) => {
       <span
         className={
           "w-full h-[6px] bg-background rounded-lg transition-all ease-in duration-300 absolute " +
-          (open ? "origin-center -rotate-45 bg-black" : "translate-y-[16px]")
+          (open ? "origin-center -rotate-45 bg-background" : "translate-y-[16px]")
         }
       />
     </button>
