@@ -34,42 +34,44 @@ function ProjectCard({
           alt="Omni Addictional & Mental Health Services home page"
         />
       </div>
-   
-        <h3 className="text-xl font-semibold">{title}</h3>
-        {tags && tags.length > 0 && (
-          <div className="flex gap-2 flex-grow">
-            {tags.map((tag) => (
-              <span
-                key="tag"
-                className="border self-start px-2 rounded-xl bg-background"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-        )}
 
-        <p className="flex-grow">{description}</p>
-        <p className="text-sm text-gray-500 flex-grow">Technologies: {technologies}</p>
-   
-      <div className="flex flex-row gap-2 mt-auto">
-          <Link
-            href={siteURL}
-            rel="noopener noreferrer"
-            target="_blank"
-            className="flex flex-row gap-1 items-center border bg-accent hover:bg-secondary text-white rounded px-3 py-2 flex-shrink-0"
-          >
-            Live Site <FaExternalLinkAlt />
-          </Link>
-          <Link
-            href={github}
-            rel="noopener noreferrer"
-            target="_blank"
-            className="flex flex-row gap-1 items-center border border-accent text-accent hover:border-secondary hover:text-secondary rounded px-3 py-2 flex-shrink-0"
-          >
-            See Code <FaGithub />
-          </Link>
+      <h3 className="text-xl font-semibold h-14">{title}</h3>
+      {tags && tags.length > 0 && (
+        <div className="flex gap-2 flex-grow">
+          {tags.map((tag) => (
+            <span
+              key="tag"
+              className="border self-start px-2 rounded-xl bg-background"
+            >
+              {tag}
+            </span>
+          ))}
         </div>
+      )}
+
+      <p className="flex-grow">{description}</p>
+      <p className="text-sm text-gray-500 flex-grow">
+        Technologies: {technologies}
+      </p>
+
+      <div className="flex flex-row gap-2 mt-auto">
+        <Link
+          href={siteURL}
+          rel="noopener noreferrer"
+          target="_blank"
+          className="flex flex-row gap-1 items-center border bg-accent hover:bg-secondary text-white rounded px-3 py-2 flex-shrink-0"
+        >
+          Live Site <FaExternalLinkAlt />
+        </Link>
+        <Link
+          href={github}
+          rel="noopener noreferrer"
+          target="_blank"
+          className="flex flex-row gap-1 items-center border border-accent text-accent hover:border-secondary hover:text-secondary rounded px-3 py-2 flex-shrink-0"
+        >
+          See Code <FaGithub />
+        </Link>
+      </div>
     </div>
   );
 }
