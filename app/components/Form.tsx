@@ -3,10 +3,12 @@ import React from "react";
 type Props = {};
 
 function Form({}: Props) {
+
   return (
     <form
       name="portfoliov2"
-      action="#contact"
+      action="https://formspree.io/f/moqybgqo"
+      method="POST"
       className="space-y-8 max-w-[600px] w-[90vw] mx-auto"
       data-netlify="true"
     >
