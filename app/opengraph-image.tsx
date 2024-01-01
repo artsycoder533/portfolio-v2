@@ -1,4 +1,5 @@
 import {ImageResponse} from "next/og";
+import Image from "next/image";
 
 // Route segment config
 export const runtime = 'edge'
@@ -12,41 +13,20 @@ export const size = {
  
 export const contentType = 'image/png'
 
-export default async function Image({
+export default async function DynamicImage({
     params: {message},
 }: {
     params: {message: string};
 }){
+    const imageURL = `https://www.natashajohnson.dev/opengraph-image`
     return new ImageResponse(
         (
-          // ImageResponse JSX element
-          <div
-            style={{
-              fontSize: 128,
-              background: 'white',
-              width: '100%',
-              height: '100%',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-            }}
-          >
-            About Acme
-          </div>
+            <Image src={imageURL} alt={alt} width={size.width} height={size.height} style={{ objectFit: 'cover' }} />
         ),
-        // ImageResponse options
-        // {
-        //   // For convenience, we can re-use the exported opengraph-image
-        //   // size config to also set the ImageResponse's width and height.
-        //   ...size,
-        //   fonts: [
-        //     {
-        //       name: 'Inter',
-        //       data: await interSemiBold,
-        //       style: 'normal',
-        //       weight: 400,
-        //     },
-        //   ],
-        // }
+        {
+            headers: {
+                'Content-Type': contentType,
+            }
+        }
       )
 }
