@@ -2,7 +2,6 @@ import React from "react";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-import omni from "../../public/images/omni.png";
 
 type Props = {
   title: string;
@@ -24,7 +23,7 @@ function ProjectCard({
   github,
 }: Props) {
   return (
-    <div className="border flex flex-col gap-6 p-4 rounded-lg bg-white shadow-md">
+    <div className="border flex flex-col gap-4 p-4 rounded-lg bg-white shadow-md">
       <div className="w-full h-[200px] relative">
         <Image
           src={img?.src}
@@ -59,7 +58,7 @@ function ProjectCard({
           href={siteURL}
           rel="noopener noreferrer"
           target="_blank"
-          className="flex flex-row gap-1 items-center border bg-accent hover:bg-secondary text-white rounded px-3 py-2 flex-shrink-0"
+          className="flex flex-row gap-1 items-center border bg-accent hover:bg-secondary text-white rounded-lg px-4 py-3 flex-shrink-0"
         >
           Live Site <FaExternalLinkAlt />
         </Link>
@@ -67,7 +66,7 @@ function ProjectCard({
           href={github}
           rel="noopener noreferrer"
           target="_blank"
-          className="flex flex-row gap-1 items-center border border-accent text-accent hover:border-secondary hover:text-secondary rounded px-3 py-2 flex-shrink-0"
+          className="flex flex-row gap-1 items-center border border-accent text-accent hover:border-secondary hover:text-secondary rounded-lg px-4 py-3 flex-shrink-0"
         >
           See Code <FaGithub />
         </Link>

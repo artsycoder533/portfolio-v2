@@ -2,9 +2,19 @@ import omni from "../../public/images/omni.png";
 import vohps from "../../public/images/vohps.jpg";
 import atlas from "../../public/images/atlas.png";
 import renewed from "../../public/images/renewed.png";
+import shoes from "../../public/images/shoes.png";
 
 
 export const projects = [
+    {
+        title: "If The Shoe Fits", 
+        tags: ["Shopify"],
+        img: shoes,
+        description: "An e-commerce store where shoe enthusiasts can shop for one of a kind sneakers and boots. Built with a custom front-end, products are queried from Shopify using Graphql.",
+        technologies: "Next.js 14 App Router, Shopify, Graphql, Typesript, and Tailwind",
+        siteURL: "https://iftheshoefits.vercel.app/",
+        github: "https://github.com/artsycoder533/if-the-shoe-fits",
+    },
     {
         title: "ReNEWed Psychological and Consultation Services", 
         tags: ["Freelance", "Re-Brand"],
