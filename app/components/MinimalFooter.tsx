@@ -72,11 +72,12 @@ function MinimalFooter({}: Props) {
           </Link>
         </div>
 
-        <div className="flex flex-row items-center justify-center py-4 border-t border-black w-full">
-          <p className=" flex flex-row  items-center  justify-center gap-1 text-xs w-full">
-            &copy; {getDate()} All Rights Reserved. Made with <FaHeart className="text-red-500"/> by:
-            Natasha Johnson
+        <div className="flex flex-col items-center justify-center py-4 border-t border-black w-full">
+          <p className="text-xs w-full text-center">
+            &copy; {getDate()} All Rights Reserved. 
           </p>
+          <p className="text-xs flex items-center gap-1 text-center">Made with <FaHeart className="text-red-500"/> by:
+            Natasha Johnson</p>
         </div>
       </div>
     </footer>
