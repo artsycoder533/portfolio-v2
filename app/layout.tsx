@@ -7,8 +7,12 @@ import MinimalFooter from "./components/MinimalFooter";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Natasha Johnson | Portfolio",
-  description: "Software Engineer Personal Portfolio",
+  title: "Natasha Johnson",
+  description:
+    "Personal Portfolio for Natasha Johnson, Software Engineer at Township.",
+    twitter: {
+      card: "summary_large_image"
+    },
 };
 
 export default function RootLayout({
@@ -19,11 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full scroll-smooth">
       <body className={inter.className}>
+        <ClassicHeader />
         <main className={`${inter.className} flex min-h-screen flex-col`}>
-          <ClassicHeader />
           {children}
-          <MinimalFooter />
         </main>
+        <MinimalFooter />
       </body>
     </html>
   );
