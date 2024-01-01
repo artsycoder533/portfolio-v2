@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <section className=" h-[600px] flex items-center" id="home">
       <div className="max-w-[1400px] w-[90vw] mx-auto flex flex-col justify-between">
-        <h1 className="text-8xl font-semibold text-primary first-letter:text-accent">
+        <h1 className="text-7xl lg:text-8xl font-semibold text-primary first-letter:text-accent">
           Natasha Johnson
         </h1>
-        <p className="text-3xl text-primary">
+        <p className="text-2xl text-primary">
           Software Engineer @{" "}
           <Link
             href="https://www.township.agency"
