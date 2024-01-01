@@ -1,8 +1,6 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import logo from "../public/images/logo.png";
 import RotatingHamburger from "./RotatingHamburger";
 import { useEffect } from "react";
 
@@ -25,7 +23,6 @@ const Navbar = (props: Props) => {
       document.body.style.overflowY = "auto";
     }
 
-    // // Cleanup function to reset the style when the component unmounts or when the 'open' state changes.
     return () => {
       document.body.style.overflowY = "auto";
     };
@@ -34,7 +31,7 @@ const Navbar = (props: Props) => {
   return (
     <nav className="flex items-center justify-between max-w-[1400px]  flex-col md:flex-row md:w-full mx-auto py-2">
       <div className="flex items-center justify-between w-full md:w-auto">
-        <p className="text-2xl font-bold text-accent">{'<NJ />'}</p>
+        <p className="text-2xl font-bold text-accent">{"<NJ />"}</p>
         <RotatingHamburger open={open} setOpen={setOpen} />
       </div>
       <ul

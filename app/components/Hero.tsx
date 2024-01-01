@@ -21,13 +21,13 @@ const Hero = (props: Props) => {
           <div className="mt-6 flex flex-row gap-4">
             <Link
               href="#projects"
-              className="border bg-accent text-white rounded px-3 py-2 hover:bg-secondary"
+              className="border bg-accent text-white rounded-lg px-4 py-3 hover:bg-secondary"
             >
               View Projects
             </Link>
             <Link
               href="#contact"
-              className="border border-accent text-accent rounded px-3 py-2 hover:text-secondary hover:border-secondary"
+              className="border border-accent text-accent rounded-lg px-4 py-3 hover:text-secondary hover:border-secondary"
             >
               Contact
             </Link>

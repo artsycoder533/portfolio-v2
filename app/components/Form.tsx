@@ -52,7 +52,7 @@ function Form({}: Props) {
       <input type="hidden" name="portfoliov2" value="portfoliov2" />
       <button
         type="submit"
-        className="bg-accent hover:bg-secondary text-white px-3 py-2 rounded"
+        className="bg-accent hover:bg-secondary text-white px-4 py-3 rounded-lg"
       >
         Send Message
       </button>
