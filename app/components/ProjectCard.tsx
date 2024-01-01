@@ -37,9 +37,9 @@ function ProjectCard({
       <h3 className="text-xl font-semibold h-14">{title}</h3>
       {tags && tags.length > 0 && (
         <div className="flex gap-2 flex-grow">
-          {tags.map((tag) => (
+          {tags.map((tag, index) => (
             <span
-              key="tag"
+              key={`${tag + index}`}
               className="border self-start px-2 rounded-xl bg-background"
             >
               {tag}
