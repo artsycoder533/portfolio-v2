@@ -1,9 +1,7 @@
 import React from "react";
 import Form from "./Form";
 
-type Props = {};
-
-function Contact({}: Props) {
+function Contact() {
   return (
     <section id="contact" className="py-32">
       <div className="max-w-[1400px] w-[90vw] mx-auto">
