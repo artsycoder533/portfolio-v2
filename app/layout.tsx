@@ -7,12 +7,21 @@ import MinimalFooter from "./components/MinimalFooter";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Natasha Johnson",
+  metadataBase: new URL('https://www.natashajohnson.dev'),
+  openGraph: {
+    images: '/opengraph-image.png',
+    type: 'website',
+    siteName: 'Natasha Johnson | Portfolio',
+    locale: 'en_US'
+  },
+  title: "Natasha Johnson | Portfolio",
   description:
     "Personal Portfolio for Natasha Johnson, Software Engineer at Township.",
-    twitter: {
-      card: "summary_large_image"
-    },
+  twitter: {
+    card: "summary_large_image",
+    creator: '@artsycoder533'
+  },
+  keywords: ['Natasha Johnson', 'Software Engineer', 'Township', 'Next.js']
 };
 
 export default function RootLayout({
