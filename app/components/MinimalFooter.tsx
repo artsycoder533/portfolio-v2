@@ -67,7 +67,7 @@ function MinimalFooter({}: Props) {
               />
             </Link>
           </div>
-          <Link href="#home" className="flex flex-row gap-2 items-center text-accent hover:text-secondary">
+          <Link href="#home" className="flex flex-row gap-2 items-center text-white hover:text-secondary">
             Back to Top <FaArrowUp />
           </Link>
         </div>
