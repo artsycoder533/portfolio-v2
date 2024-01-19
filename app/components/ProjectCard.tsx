@@ -8,7 +8,7 @@ type Props = {
   tags: string[];
   img: StaticImageData;
   description: string;
-  technologies: string;
+  // technologies: string;
   siteURL: string;
   github: string;
 };
@@ -18,7 +18,7 @@ function ProjectCard({
   tags,
   img,
   description,
-  technologies,
+  // technologies,
   siteURL,
   github,
 }: Props) {
@@ -27,16 +27,17 @@ function ProjectCard({
       <div className="w-full ">
         <Image
           src={img?.src}
-          width={700}
+          width={800}
           height={250}
           className="object-cover"
           alt={`${title} home page`}
+          priority
         />
       </div>
 
-      <h3 className="text-xl font-semibold h-14">{title}</h3>
+      <h3 className="text-2xl font-semibold h-14 text-accent">{title}</h3>
       {tags && tags.length > 0 && (
-        <div className="flex gap-2 flex-grow">
+        <div className="flex flex-wrap flex-grow gap-2 ">
           {tags.map((tag, index) => (
             <span
               key={`${tag + index}`}
@@ -49,9 +50,9 @@ function ProjectCard({
       )}
 
       <p className="flex-grow">{description}</p>
-      <p className="text-sm text-gray-500 flex-grow">
+      {/* <p className="text-sm text-gray-500 flex-grow">
         Technologies: {technologies}
-      </p>
+      </p> */}
 
       <div className="flex flex-row gap-2 mt-auto">
         <Link
