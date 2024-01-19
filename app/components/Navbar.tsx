@@ -29,7 +29,7 @@ const Navbar = (props: Props) => {
   }, [open]);
 
   return (
-    <nav className="flex items-center justify-between max-w-[1400px]  flex-col md:flex-row md:w-full mx-auto py-2">
+    <nav className="flex items-center justify-between max-w-[1400px] w-[90vw] flex-col md:flex-row  mx-auto py-2">
       <div className="flex items-center justify-between w-full md:w-auto">
         <p className="text-2xl font-bold text-accent">{"<NJ />"}</p>
         <RotatingHamburger open={open} setOpen={setOpen} />

@@ -7,6 +7,7 @@ import {
   FaGithub,
   FaCodepen,
   FaArrowUp,
+  FaLinkedin,
 } from "react-icons/fa";
 
 type Props = {};
@@ -31,6 +32,17 @@ function MinimalFooter({}: Props) {
               <FaGithub
                 className="text-3xl hover:text-accent"
                 alt="Github"
+              />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/natasha--johnson/"
+              rel="noopener noreferrer"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <FaLinkedin
+                className="text-3xl hover:text-accent"
+                alt="LinkedIn"
               />
             </Link>
             <Link
@@ -67,7 +79,7 @@ function MinimalFooter({}: Props) {
               />
             </Link>
           </div>
-          <Link href="#home" className="flex flex-row gap-2 items-center text-white hover:text-secondary">
+          <Link href="#home" className="flex flex-row gap-2 items-center text-white hover:text-accent">
             Back to Top <FaArrowUp />
           </Link>
         </div>
