@@ -1,6 +1,7 @@
 "use client";
 import { useForm } from "@formspree/react";
 import { useState, ChangeEvent, FormEvent, useEffect } from "react";
+import { FaCheckCircle } from "react-icons/fa";
 
 interface FormData {
   name: string;
@@ -58,7 +59,7 @@ function Form() {
             type="text"
             name="name"
             id="name"
-            className="border rounded-lg p-2 bg-background"
+            className="border rounded-lg p-2 bg-white"
             value={formData.name}
             onChange={handleChange}
             required
@@ -72,7 +73,7 @@ function Form() {
             type="email"
             name="email"
             id="email"
-            className="border rounded-lg p-2 bg-background"
+            className="border rounded-lg p-2 bg-white"
             value={formData.email}
             onChange={handleChange}
             required
@@ -88,7 +89,7 @@ function Form() {
           name="message"
           id="message"
           rows={6}
-          className="border rounded-lg p-2 bg-background"
+          className="border rounded-lg p-2 bg-white"
           value={formData.message}
           onChange={handleChange}
           required
@@ -101,9 +102,9 @@ function Form() {
         Send Message
       </button>
       {submissionSuccess && (
-        <div className="bg-green-200 p-3 rounded-md mb-4">
-          Your message has been sent! Thank you.
-        </div>
+        <p className="bg-green-200 p-3 rounded-md mb-4 flex items-center justify-between">
+          Your message has been sent! Thank you. <FaCheckCircle className="text-green-900" />
+        </p>
       )}
     </form>
   );
