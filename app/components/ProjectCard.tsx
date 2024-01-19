@@ -8,7 +8,6 @@ type Props = {
   tags: string[];
   img: StaticImageData;
   description: string;
-  // technologies: string;
   siteURL: string;
   github: string;
 };
@@ -18,7 +17,6 @@ function ProjectCard({
   tags,
   img,
   description,
-  // technologies,
   siteURL,
   github,
 }: Props) {
@@ -50,9 +48,6 @@ function ProjectCard({
       )}
 
       <p className="flex-grow">{description}</p>
-      {/* <p className="text-sm text-gray-500 flex-grow">
-        Technologies: {technologies}
-      </p> */}
 
       <div className="flex flex-row gap-2 mt-auto">
         <Link

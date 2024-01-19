@@ -1,8 +1,6 @@
 import React from "react";
 import { FaArrowDown, FaHeart } from "react-icons/fa";
 import Link from "next/link";
-// import Image from "next/image";
-// import headshot from "../../public/images/headshot.jpg"
 
 const Hero = () => {
   return (
@@ -34,9 +32,6 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-      {/* <div className="hidden md:block">
-        <Image src={headshot} alt="Headshot of Natasha Johnson" />
-      </div> */}
     </section>
   );
 };
