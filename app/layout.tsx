@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     creator: '@artsycoder533'
   },
-  keywords: ['Natasha Johnson', 'Software Engineer', 'Township', 'Next.js']
+  keywords: ['Natasha Johnson', 'Software Engineer', 'Township', 'Next.js Developer', 'artsycoder533', '@artsycoder533', 'Self-taught developer', 'Freelance Web Developer', 'Front End Developer', 'Vue Developer', 'React Developer']
 };
 
 export default function RootLayout({
@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="h-full scroll-smooth">
+    <html lang="en" className="h-full scroll-smooth bg-accent">
       <body className={inter.className}>
         <ClassicHeader />
         <main className={`${inter.className} flex min-h-screen flex-col`}>
