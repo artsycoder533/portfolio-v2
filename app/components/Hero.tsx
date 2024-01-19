@@ -1,15 +1,17 @@
 import React from "react";
-import { FaHeart } from "react-icons/fa";
+import { FaArrowDown, FaHeart } from "react-icons/fa";
 import Link from "next/link";
+// import Image from "next/image";
+// import headshot from "../../public/images/headshot.jpg"
 
 const Hero = () => {
   return (
-    <section className=" h-[600px] flex items-center" id="home">
-      <div className="max-w-[1400px] w-[90vw] mx-auto flex flex-col justify-between">
+    <section className="h-[600px] flex justify-center items-center rounded-br-full bg-white" id="home">
+      <div className=" flex flex-col justify-between max-w-[1400px] w-[90vw] mx-auto">
         <h1 className="text-7xl lg:text-8xl font-semibold text-primary first-letter:text-accent">
           Natasha Johnson
         </h1>
-        <p className="text-2xl text-primary">
+        <p className="text-2xl text-primary font-light">
           Software Engineer @{" "}
           <Link
             href="https://www.township.agency"
@@ -20,24 +22,21 @@ const Hero = () => {
             Township
           </Link>
         </p>
-        <p className="flex items-center gap-1 mt-4">
-          I <FaHeart className="text-red-500" /> the front end.
+        <p className="flex items-center gap-2 text-2xl font-light">
+          I <FaHeart className="text-red-500" /> Front End Development.
         </p>
-        <div className="mt-6 flex flex-row gap-4">
+        <div className="mt-12 flex flex-row gap-4">
           <Link
             href="#projects"
-            className="border bg-accent text-white rounded-lg px-4 py-3 hover:bg-[#9E1E23]"
+            className="border bg-accent text-white rounded-lg px-4 py-3 hover:bg-[#9E1E23] animate-bounce flex items-center gap-2"
           >
-            View Projects
-          </Link>
-          <Link
-            href="#contact"
-            className="border border-accent text-accent rounded-lg px-4 py-3 hover:bg-gray-200"
-          >
-            Contact
+            View Projects <FaArrowDown />
           </Link>
         </div>
       </div>
+      {/* <div className="hidden md:block">
+        <Image src={headshot} alt="Headshot of Natasha Johnson" />
+      </div> */}
     </section>
   );
 };
