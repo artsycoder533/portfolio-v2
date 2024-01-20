@@ -8,7 +8,7 @@ export const projects = [
     title: "If The Shoe Fits",
     tags: [
       "Next.js 14 App Router",
-      "Shopify SDK",
+      "Shopify Storefront API",
       "Typescript",
       "GraphQL",
       "Tailwind",
@@ -16,7 +16,7 @@ export const projects = [
     ],
     img: shoes,
     description:
-      "An e-commerce store where shoe enthusiasts can shop for one of a kind sneakers and boots. Built with a custom front-end, products are queried from Shopify using Graphql.",
+      "A custom Shopify E-commerce storefront where shoe enthusiasts can shop for one of a kind sneakers and boots. Products are queried from the Shopify Storefront API using GraphQL.  Users are redirected tdo Shopify checkout when completing to complete a purchase.",
     technologies:
       "Next.js 14 App Router, Shopify SDK, Graphql, Typesript, Formspree, and Tailwind",
     siteURL: "https://iftheshoefits.vercel.app/",
@@ -35,7 +35,7 @@ export const projects = [
     ],
     img: whatsNxt,
     description:
-      "A custom e-commerce website built as a cheaper alternative to Shopify.  Products are queried from Sanity and payments and handled through Stripe.",
+      "A custom e-commerce website built as a cheaper alternative platforms like Shopify.  Products are queried using the GROQ query language from Sanity, payments are handled through Stripe, and contact form submissions are handled through Formspree.",
     siteURL: "https://www.whatsnxt.org/",
     github: "https://github.com/artsycoder533/whats-nxt",
   },
