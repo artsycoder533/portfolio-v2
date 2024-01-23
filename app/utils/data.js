@@ -2,6 +2,7 @@ import shoes from "../../public/images/shoes.png";
 import whatsNxt from "../../public/images/whats-nxt.png";
 import productiv from "../../public/images/productiv.png";
 import first from "../../public/images/1st-third.png";
+import ten23 from "../../public/images/ten23.png"
 
 export const projects = [
   {
@@ -38,6 +39,20 @@ export const projects = [
       "A custom e-commerce website built as a cheaper alternative platforms like Shopify.  Products are queried using the GROQ query language from Sanity, payments are handled through Stripe, and contact form submissions are handled through Formspree.",
     siteURL: "https://www.whatsnxt.org/",
     github: "https://github.com/artsycoder533/whats-nxt",
+  },
+  {
+    title: "Ten-23 Agency",
+    tags: [
+      "Next.js 14 App Router",
+      "Typescript",
+      "Tailwind",
+      "Formspree",
+    ],
+    img: ten23,
+    description:
+      "A custom e-commerce website built as a cheaper alternative platforms like Shopify.  Products are queried using the GROQ query language from Sanity, payments are handled through Stripe, and contact form submissions are handled through Formspree.",
+    siteURL: "https://www.ten23.agency/",
+    github: "https://github.com/artsycoder533/ten23",
   },
   {
     title: "1st & Third",
