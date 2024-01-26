@@ -20,6 +20,17 @@ const Hero = () => {
             Township
           </Link>
         </p>
+        <p className="text-2xl text-primary font-light">
+          Founder @{" "}
+          <Link
+            href="https://www.ten23.agency/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent"
+          >
+            Ten-23 Agency LLC
+          </Link>
+        </p>
         <p className="flex items-center gap-2 text-2xl font-light">
           I <FaHeart className="text-red-500" /> Front End Development.
         </p>
