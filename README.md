@@ -31,13 +31,13 @@ Below are links to my featured projects:
 
 If The Shoe Fits:
 
-- [Repository URL](https://github.com/artsycoder533/1st-Third.git)
-- [Live Site URL](https://artsycoder533.github.io/1st-Third/)
+- [Repository URL](https://github.com/artsycoder533/if-the-shoe-fits)
+- [Live Site URL](https://iftheshoefits.vercel.app/)
 
 Ten-23 Agency: 
 
-- [Repository URL](https://github.com/artsycoder533/CV-Builder.git)
-- [Live Site URL](https://artsycoder533.github.io/CV-Builder/)
+- [Repository URL](https://github.com/artsycoder533/ten23)
+- [Live Site URL](https://www.ten23.agency/)
 
 
 1st & Third:
@@ -48,9 +48,8 @@ Ten-23 Agency:
 
 Productiv:
 
-- Repository URL: [https://github.com/artsycoder533/VOHPS-LLC.git](https://github.com/artsycoder533/VOHPS-LLC.git)
-- Live Site URL: [https://visionsofhope-va.com/](https://visionsofhope-va.com/)
-- Video Demo on Youtube: [https://youtu.be/WwilzCSvx8k](https://youtu.be/WwilzCSvx8k)
+- [Repository URL](https://github.com/artsycoder533/productiv)
+- [Live Site URL](https://artsycoder533.github.io/productiv/#)
 
 
 
@@ -66,6 +65,6 @@ Productiv:
 - [Personal Portfolio](https://natashajohnson.dev/)
 - [LinkedIn](https://www.linkedin.com/in/natasha--johnson/)
 - [Twitter](https://twitter.com/artsycoder533)
-- [YouTube Channel][https://www.youtube.com/channel/UCOGjYAACGwNLzYcTpXnvZ_Q](https://www.youtube.com/channel/UCOGjYAACGwNLzYcTpXnvZ_Q)
+- [YouTube Channel](https://www.youtube.com/channel/UCOGjYAACGwNLzYcTpXnvZ_Q)
 
 
