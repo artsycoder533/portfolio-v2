@@ -31,7 +31,7 @@ const Hero = () => {
             Ten-23 Agency LLC
           </Link>
         </p>
-        <p className="flex items-center gap-2 text-2xl font-light">
+        <p className="flex items-center gap-2 text-2xl font-light mt-4">
           I <FaHeart className="text-red-500" /> Front End Development.
         </p>
         <div className="mt-12 flex flex-row gap-4">
