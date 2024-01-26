@@ -24,7 +24,7 @@ export const projects = [
     github: "https://github.com/artsycoder533/if-the-shoe-fits",
   },
   {
-    title: "Ten-23 Agency",
+    title: "Ten-23 Agency LLC",
     tags: [
       "Next.js 14 App Router",
       "Typescript",

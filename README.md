@@ -34,7 +34,7 @@ If The Shoe Fits:
 - [Repository URL](https://github.com/artsycoder533/if-the-shoe-fits)
 - [Live Site URL](https://iftheshoefits.vercel.app/)
 
-Ten-23 Agency: 
+Ten-23 Agency LLC: 
 
 - [Repository URL](https://github.com/artsycoder533/ten23)
 - [Live Site URL](https://www.ten23.agency/)
