@@ -97,7 +97,7 @@ function Form() {
       </div>
       <button
         type="submit"
-        className="bg-accent hover:bg-[#9E1E23] text-white px-4 py-3 rounded-lg"
+        className="bg-accent hover:bg-black text-white px-4 py-3 rounded-lg"
       >
         Send Message
       </button>

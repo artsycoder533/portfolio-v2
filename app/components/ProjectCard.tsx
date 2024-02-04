@@ -54,7 +54,7 @@ function ProjectCard({
           href={siteURL}
           rel="noopener noreferrer"
           target="_blank"
-          className="flex flex-row gap-1 items-center border bg-accent hover:bg-[#9E1E23] text-white rounded-lg px-4 py-3 flex-shrink-0"
+          className="flex flex-row gap-1 items-center border bg-accent hover:bg-black text-white rounded-lg px-4 py-3 flex-shrink-0"
         >
           Live Site <FaExternalLinkAlt />
         </Link>
@@ -62,7 +62,7 @@ function ProjectCard({
           href={github}
           rel="noopener noreferrer"
           target="_blank"
-          className="flex flex-row gap-1 items-center border border-accent text-accent hover:bg-gray-200 rounded-lg px-4 py-3 flex-shrink-0"
+          className="flex flex-row gap-1 items-center border border-accent text-accent hover:bg-black hover:text-white rounded-lg px-4 py-3 flex-shrink-0"
         >
           See Code <FaGithub />
         </Link>

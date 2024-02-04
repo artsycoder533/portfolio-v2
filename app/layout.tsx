@@ -33,7 +33,7 @@ export default function RootLayout({
     <html lang="en" className="h-full scroll-smooth bg-accent">
       <body className={inter.className}>
         <ClassicHeader />
-        <main className={`${inter.className} flex min-h-screen flex-col`}>
+        <main className={`flex min-h-screen flex-col`}>
           {children}
         </main>
         <MinimalFooter />
