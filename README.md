@@ -51,13 +51,6 @@ Ten-23 Agency LLC:
 - [Live Site URL](https://artsycoder533.github.io/1st-Third/)
 
 
-Productiv:
-
-- [Repository URL](https://github.com/artsycoder533/productiv)
-- [Live Site URL](https://artsycoder533.github.io/productiv/#)
-
-
-
 ### Built with
 
 - Next.js 14 App Router
@@ -71,5 +64,6 @@ Productiv:
 - [LinkedIn](https://www.linkedin.com/in/natasha--johnson/)
 - [Twitter](https://twitter.com/artsycoder533)
 - [YouTube Channel](https://www.youtube.com/channel/UCOGjYAACGwNLzYcTpXnvZ_Q)
+- [Codepen](https://codepen.io/artsycoder)
 
 
