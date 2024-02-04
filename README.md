@@ -34,6 +34,11 @@ If The Shoe Fits:
 - [Repository URL](https://github.com/artsycoder533/if-the-shoe-fits)
 - [Live Site URL](https://iftheshoefits.vercel.app/)
 
+WHATS NXT: 
+
+- [Repository URL](https://github.com/artsycoder533/whats-nxt)
+- [Live Site URL](https://www.whatsnxt.org/)
+
 Ten-23 Agency LLC: 
 
 - [Repository URL](https://github.com/artsycoder533/ten23)
