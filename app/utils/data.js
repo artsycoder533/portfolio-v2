@@ -1,6 +1,5 @@
 import shoes from "../../public/images/shoes.png";
 import whatsNxt from "../../public/images/whats-nxt.png";
-import productiv from "../../public/images/productiv.png";
 import first from "../../public/images/1st-third.png";
 import ten23 from "../../public/images/ten23.png";
 
@@ -67,21 +66,4 @@ export const projects = [
     siteURL: "https://artsycoder533.github.io/1st-Third/",
     github: "https://github.com/artsycoder533/1st-Third",
   },
-  // {
-  //   title: "Productiv",
-  //   tags: [
-  //     "Vanilla JavaScript",
-  //     "Firebase Firestore",
-  //     "Firebase Authentication",
-  //     "Quotes API",
-  //     "Webpack 5",
-  //     "CSS/Sass",
-  //     "Html",
-  //   ],
-  //   img: productiv,
-  //   description:
-  //     "A dashboard application that solves the problem of having to switch between multiple applications to maintain productivity. A user is able to add tasks organized by project type as well as date. To aid the user in keeping deadlines, tasks are automatically added to the inbox that are due the current day. Productiv also includes widgets such as a Pomodoro Timer and calculator.",
-  //   siteURL: "https://artsycoder533.github.io/productiv/#",
-  //   github: "https://github.com/artsycoder533/productiv",
-  // },
 ];
