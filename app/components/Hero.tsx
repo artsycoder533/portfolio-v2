@@ -40,7 +40,7 @@ const Hero = () => {
         <div className="mt-12 flex flex-row gap-4">
           <Link
             href="#projects"
-            className="border bg-accent text-white rounded-lg px-4 py-3 hover:bg-black animate-bounce flex items-center gap-2"
+            className="bg-accent text-white rounded-xl px-4 py-3 hover:bg-black animate-bounce flex items-center gap-2"
           >
             View Projects <FaArrowDown />
           </Link>
