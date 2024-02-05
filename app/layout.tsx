@@ -19,7 +19,9 @@ export const metadata: Metadata = {
     "Personal Portfolio for Natasha Johnson, Software Engineer at Township.",
   twitter: {
     card: "summary_large_image",
-    creator: '@artsycoder533'
+    creator: '@artsycoder533',
+    images: '/opengraph-image.png',
+    description: "Personal Portfolio for Natasha Johnson, Software Engineer at Township.",
   },
   keywords: ['Natasha Johnson', 'Software Engineer', 'Township', 'Next.js Developer', 'artsycoder533', '@artsycoder533', 'Self-taught developer', 'Freelance Web Developer', 'Front End Developer', 'Vue Developer', 'React Developer']
 };
