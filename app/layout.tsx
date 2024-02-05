@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     creator: '@artsycoder533',
     images: '/opengraph-image.png',
-    description: "Personal Portfolio for Natasha Johnson, Software Engineer at Township.",
+    description: "Personal Portfolio for Natasha Johnson, Software Engineer at Township.  Experienced in front-end development with frameworks such as Next.js, Vue, and React Native.",
   },
   keywords: ['Natasha Johnson', 'Software Engineer', 'Township', 'Next.js Developer', 'artsycoder533', '@artsycoder533', 'Self-taught developer', 'Freelance Web Developer', 'Front End Developer', 'Vue Developer', 'React Developer']
 };
