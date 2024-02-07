@@ -18,6 +18,8 @@ export const metadata: Metadata = {
   description:
     "Personal Portfolio for Natasha Johnson, Software Engineer at Township.",
   twitter: {
+    title: "Natasha Johnson | Portfolio",
+    site: "https://www.natashajohnson.dev/",
     card: "summary_large_image",
     creator: '@artsycoder533',
     images: '/opengraph-image.png',
