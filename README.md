@@ -63,7 +63,7 @@ Ten-23 Agency LLC:
 - [Personal Portfolio](https://natashajohnson.dev/)
 - [LinkedIn](https://www.linkedin.com/in/natasha--johnson/)
 - [Twitter](https://twitter.com/artsycoder533)
-- [YouTube Channel](https://www.youtube.com/channel/UCOGjYAACGwNLzYcTpXnvZ_Q)
+- [YouTube Channel](https://www.youtube.com/@artsycoder533)
 - [Codepen](https://codepen.io/artsycoder)
 
 
