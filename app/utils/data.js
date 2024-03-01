@@ -2,6 +2,7 @@ import shoes from "../../public/images/shoes.png";
 import whatsNxt from "../../public/images/whats-nxt.png";
 import first from "../../public/images/1st-third.png";
 import ten23 from "../../public/images/ten23.png";
+import productiv from "../../public/images/productiv.png"
 
 export const projects = [
   {
@@ -65,5 +66,21 @@ export const projects = [
       "An E-Commerce website where the user can browse and filter products pulled from the Fake Store API based on category, price, and customer rating, sort products based on price and item name, and add/update products in the cart. The user is then able to checkout by filling in their contact information in the checkout form with added form validation. I utilized the Context API paired with reducers for global state management.",
     siteURL: "https://artsycoder533.github.io/1st-Third/",
     github: "https://github.com/artsycoder533/1st-Third",
+  },
+  {
+    title: "Productiv",
+    tags: [
+      "JavaScript",
+      "Async/Await",
+      "ES6 Classes",
+      "ES6 Modules",
+      "Firebase Firestore",
+      "Firebase Authentication"
+    ],
+    img: productiv,
+    description:
+      "A dashboard application that solves the problem of having to switch between multiple applications to maintain productivity. A user is able to add tasks organized by project type as well as date. To aid the user in keeping deadlines, tasks are automatically added to the inbox that are due the current day. Productiv also includes widgets such as a Pomodoro Timer and calculator.",
+    siteURL: "https://artsycoder533.github.io/productiv/#",
+    github: "https://github.com/artsycoder533/productiv",
   },
 ];
