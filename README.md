@@ -13,17 +13,21 @@ Personal portfolio website that showcases my skills through featured projects.
 
 ## Overview
 
-Software Engineer @ [Township](https://www.township.agency/)
+Software Engineer @ [Township](https://www.township.agency/).  Specializing in Front End, developing dynamic user interfaces.
 
 ### Skills
 
 - Next.js
 - React Native
 - Vue
+- React
 - Typescript
+- JavaScript
 - Sanity
 - Shopify
 - Tailwind
+- Styled Components
+- CSS
 
 ### Projects
 
@@ -49,7 +53,12 @@ Ten-23 Agency LLC:
 
 - [Repository URL](https://github.com/artsycoder533/1st-Third.git)
 - [Live Site URL](https://artsycoder533.github.io/1st-Third/)
+- [YouTube Playlist](https://www.youtube.com/playlist?list=PL2WqH02famSU0LDxXBtOHKcplOsu6QYqE)
 
+Productiv:
+- [Repository URL](https://github.com/artsycoder533/productiv)
+- [Live Site URL](https://artsycoder533.github.io/productiv/#)
+- [YouTube Playlist](https://www.youtube.com/playlist?list=PL2WqH02famSWoIjSa2kHPvw6u7Qzsmshx)
 
 ### Built with
 
