@@ -91,7 +91,7 @@ export const projects = [
 
 export const justForFun = [
   {
-    title: "Etch-A-Sketch",
+    title: "Etch-A-Sketch (Desktop Only)",
     tags: [
       "HTML5",
       "CSS3",
@@ -113,7 +113,7 @@ export const justForFun = [
     github: "https://github.com/artsycoder533/letters",
   },
   {
-    title: "Interactive Shapes",
+    title: "Interactive Shapes (Desktop Only)",
     tags: [
       "p5.js",
       "JavaScript",
