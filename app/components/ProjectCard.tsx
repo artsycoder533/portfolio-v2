@@ -7,7 +7,7 @@ type Props = {
   title: string;
   tags: string[];
   img: StaticImageData;
-  description: string;
+  description?: string;
   siteURL: string;
   github: string;
 };

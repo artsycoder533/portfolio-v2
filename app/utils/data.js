@@ -2,7 +2,11 @@ import shoes from "../../public/images/shoes.png";
 import whatsNxt from "../../public/images/whats-nxt.png";
 import first from "../../public/images/1st-third.png";
 import ten23 from "../../public/images/ten23.png";
-import productiv from "../../public/images/productiv.png"
+// import productiv from "../../public/images/productiv.png";
+import etchASketch from "../../public/images/etchASketch.png";
+import letters from "../../public/images/letters.png";
+import interactiveShapes from "../../public/images/interactiveShapes.png";
+import words from "../../public/images/words.png";
 
 export const projects = [
   {
@@ -67,20 +71,68 @@ export const projects = [
     siteURL: "https://artsycoder533.github.io/1st-Third/",
     github: "https://github.com/artsycoder533/1st-Third",
   },
-  {
-    title: "Productiv",
-    tags: [
-      "JavaScript",
-      "Async/Await",
-      "ES6 Classes",
-      "ES6 Modules",
-      "Firebase Firestore",
-      "Firebase Authentication"
-    ],
-    img: productiv,
-    description:
-      "A dashboard application that solves the problem of having to switch between multiple applications to maintain productivity. A user is able to add tasks organized by project type as well as date. To aid the user in keeping deadlines, tasks are automatically added to the inbox that are due the current day. Productiv also includes widgets such as a Pomodoro Timer and calculator.",
-    siteURL: "https://artsycoder533.github.io/productiv/#",
-    github: "https://github.com/artsycoder533/productiv",
-  },
+  // {
+  //   title: "Productiv",
+  //   tags: [
+  //     "JavaScript",
+  //     "Async/Await",
+  //     "ES6 Classes",
+  //     "ES6 Modules",
+  //     "Firebase Firestore",
+  //     "Firebase Authentication"
+  //   ],
+  //   img: productiv,
+  //   description:
+  //     "A dashboard application that solves the problem of having to switch between multiple applications to maintain productivity. A user is able to add tasks organized by project type as well as date. To aid the user in keeping deadlines, tasks are automatically added to the inbox that are due the current day. Productiv also includes widgets such as a Pomodoro Timer and calculator.",
+  //   siteURL: "https://artsycoder533.github.io/productiv/#",
+  //   github: "https://github.com/artsycoder533/productiv",
+  // },
 ];
+
+export const justForFun = [
+  {
+    title: "Etch-A-Sketch",
+    tags: [
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    img: etchASketch,
+    siteURL: "https://artsycoder533.github.io/etch-a-sketch/",
+    github: "https://github.com/artsycoder533/etch-a-sketch",
+  },
+  {
+    title: "Letters",
+    tags: [
+      "p5.js",
+      "JavaScript",
+      "CSS"
+    ],
+    img: letters,
+    siteURL: "https://artsycoder533.github.io/letters/",
+    github: "https://github.com/artsycoder533/letters",
+  },
+  {
+    title: "Interactive Shapes",
+    tags: [
+      "p5.js",
+      "JavaScript",
+      "CSS"
+    ],
+    img: interactiveShapes,
+    siteURL: "https://artsycoder533.github.io/interactive-shapes/",
+    github: "https://github.com/artsycoder533/interactive-shapes",
+  },
+  {
+    title: "Words",
+    tags: [
+      "p5.js",
+      "JavaScript",
+      "CSS"
+    ],
+    img: words,
+    siteURL: "https://artsycoder533.github.io/words/",
+    github: "https://github.com/artsycoder533/words",
+  },
+  
+]
