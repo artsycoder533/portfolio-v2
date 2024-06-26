@@ -38,16 +38,15 @@ If The Shoe Fits:
 - [Repository URL](https://github.com/artsycoder533/if-the-shoe-fits)
 - [Live Site URL](https://iftheshoefits.vercel.app/)
 
+My Link Vault:
+- [Repository URL](https://github.com/artsycoder533/my-link-vault)
+- [Chrome Web Store Listing](https://chromewebstore.google.com/detail/my-link-vault/cgnjhdifiiiaepjipolnodmeccccoekk?hl=en-US)
+- [Marketing Website URL](https://my-link-vault.vercel.app/)
+
 WHATS NXT: 
 
 - [Repository URL](https://github.com/artsycoder533/whats-nxt)
 - [Live Site URL](https://www.whatsnxt.org/)
-
-Ten-23 Agency LLC: 
-
-- [Repository URL](https://github.com/artsycoder533/ten23)
-- [Live Site URL](https://www.ten23.agency/)
-
 
 1st & Third:
 
@@ -55,10 +54,7 @@ Ten-23 Agency LLC:
 - [Live Site URL](https://artsycoder533.github.io/1st-Third/)
 - [YouTube Playlist](https://www.youtube.com/playlist?list=PL2WqH02famSU0LDxXBtOHKcplOsu6QYqE)
 
-Productiv:
-- [Repository URL](https://github.com/artsycoder533/productiv)
-- [Live Site URL](https://artsycoder533.github.io/productiv/#)
-- [YouTube Playlist](https://www.youtube.com/playlist?list=PL2WqH02famSWoIjSa2kHPvw6u7Qzsmshx)
+
 
 ### Built with
 
