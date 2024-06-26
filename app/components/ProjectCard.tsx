@@ -22,7 +22,7 @@ function ProjectCard({
 }: Props) {
   return (
     <div className="border flex flex-col gap-4 p-4 rounded-lg bg-white shadow-md">
-      <div className="w-full ">
+      <div className="w-full">
         <Image
           src={img?.src}
           width={800}

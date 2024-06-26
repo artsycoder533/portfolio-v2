@@ -2,11 +2,11 @@ import shoes from "../../public/images/shoes.png";
 import whatsNxt from "../../public/images/whats-nxt.png";
 import first from "../../public/images/1st-third.png";
 import ten23 from "../../public/images/ten23.png";
-// import productiv from "../../public/images/productiv.png";
 import etchASketch from "../../public/images/etchASketch.png";
 import letters from "../../public/images/letters.png";
 import interactiveShapes from "../../public/images/interactiveShapes.png";
 import words from "../../public/images/words.png";
+import linkVault from '../../public/images/linkVault.png'
 
 export const projects = [
   {
@@ -14,7 +14,7 @@ export const projects = [
     tags: [
       "Next.js 14 App Router",
       "Shopify Storefront API",
-      "Typescript",
+      "TypeScript",
       "GraphQL",
       "Tailwind",
       "Formspree",
@@ -26,12 +26,29 @@ export const projects = [
     github: "https://github.com/artsycoder533/if-the-shoe-fits",
   },
   {
+    title: "My Link Vault",
+    tags: [
+      "React",
+      "Typescript",
+      "IndexedDB",
+      "Vitest",
+      "React Testing Library",
+      "Formspree",
+      "Tailwind",
+      "Chrome Extension"
+    ],
+    img: linkVault,
+    description: "Link Vault is a Chrome extension that enables users to create a list of saved links, stored in IndexedDB. Users can categorize each link by tag and category, with the webpage's title and URL automatically fetched as link data. The link list can be filtered by tag and category. When a user clicks on a link in their list, they are navigated to the link's URL in a new page.",
+    siteURL: 'https://my-link-vault.vercel.app/',
+    github: 'https://github.com/artsycoder533/my-link-vault'
+  },
+  {
     title: "WHATS NXT",
     tags: [
       "Next.js 14 App Router",
       "Sanity",
       "Stripe",
-      "Typescript",
+      "TypeScript",
       "GROQ",
       "Tailwind",
       "Formspree",
@@ -42,20 +59,21 @@ export const projects = [
     siteURL: "https://www.whatsnxt.org/",
     github: "https://github.com/artsycoder533/whats-nxt",
   },
-  {
-    title: "Ten-23 Agency LLC",
-    tags: [
-      "Next.js 14 App Router",
-      "Typescript",
-      "Tailwind",
-      "Formspree",
-    ],
-    img: ten23,
-    description:
-      "A custom website built for my Web Development Agency that showcases the websites I have created/revamped while freelancing for clients.  Potential clients can browse the services offered, learn about my prices and send a message that will be delivered directly to my inbox.",
-    siteURL: "https://www.ten23.agency/",
-    github: "https://github.com/artsycoder533/ten23",
-  },
+
+  // {
+  //   title: "Ten-23 Agency LLC",
+  //   tags: [
+  //     "Next.js 14 App Router",
+  //     "TypeScript",
+  //     "Tailwind",
+  //     "Formspree",
+  //   ],
+  //   img: ten23,
+  //   description:
+  //     "A custom website built for my Web Development Agency that showcases the websites I have created/revamped while freelancing for clients.  Potential clients can browse the services offered, learn about my prices and send a message that will be delivered directly to my inbox.",
+  //   siteURL: "https://www.ten23.agency/",
+  //   github: "https://github.com/artsycoder533/ten23",
+  // },
   {
     title: "1st & Third",
     tags: [
@@ -71,22 +89,7 @@ export const projects = [
     siteURL: "https://artsycoder533.github.io/1st-Third/",
     github: "https://github.com/artsycoder533/1st-Third",
   },
-  // {
-  //   title: "Productiv",
-  //   tags: [
-  //     "JavaScript",
-  //     "Async/Await",
-  //     "ES6 Classes",
-  //     "ES6 Modules",
-  //     "Firebase Firestore",
-  //     "Firebase Authentication"
-  //   ],
-  //   img: productiv,
-  //   description:
-  //     "A dashboard application that solves the problem of having to switch between multiple applications to maintain productivity. A user is able to add tasks organized by project type as well as date. To aid the user in keeping deadlines, tasks are automatically added to the inbox that are due the current day. Productiv also includes widgets such as a Pomodoro Timer and calculator.",
-  //   siteURL: "https://artsycoder533.github.io/productiv/#",
-  //   github: "https://github.com/artsycoder533/productiv",
-  // },
+
 ];
 
 export const justForFun = [

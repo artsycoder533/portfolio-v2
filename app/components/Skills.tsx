@@ -1,6 +1,6 @@
 import React from 'react'
-import { SiNextdotjs, SiTailwindcss, SiSanity, SiTypescript, SiJavascript, SiStyledcomponents} from "react-icons/si";
-import { FaReact, FaVuejs, FaShopify } from "react-icons/fa";
+import { SiNextdotjs, SiTailwindcss, SiSanity, SiTypescript, SiJavascript, SiStyledcomponents, SiVitest, SiTestinglibrary} from "react-icons/si";
+import { FaReact, FaVuejs } from "react-icons/fa";
 import Title from './Title';
 
 const Skills = () => {
@@ -41,8 +41,12 @@ const Skills = () => {
                 <p>Sanity</p>
             </div>
             <div className="flex flex-col items-center gap-1 text-center">
-                <FaShopify className="text-7xl"/>
-                <p>Shopify</p>
+                <SiVitest className="text-7xl"/>
+                <p>Vitest</p>
+            </div>
+            <div className="flex flex-col items-center gap-1 text-center">
+                <SiTestinglibrary className="text-7xl"/>
+                <p>React Testing Library</p>
             </div>
         </div>
     </section>
