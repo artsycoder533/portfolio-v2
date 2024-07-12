@@ -4,9 +4,9 @@ import Title from "./Title";
 
 function Contact() {
   return (
-    <section id="contact" className="py-32 bg-secondary rounded-tr-full">
+    <section id="contact" className="py-32 bg-primary rounded-bl-full">
       <div className="max-w-[1400px] w-[90vw] mx-auto">
-        <Title title="Contact Me" />
+        <Title alt title="Contact Me" />
         <Form />
       </div>
     </section>

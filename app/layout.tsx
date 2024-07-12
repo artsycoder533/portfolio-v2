@@ -34,7 +34,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="h-full scroll-smooth bg-accent">
+    <html lang="en" className="h-full scroll-smooth bg-accent overflow-x-hidden">
       <body className={inter.className}>
         <ClassicHeader />
         <main className={`flex min-h-screen flex-col`}>

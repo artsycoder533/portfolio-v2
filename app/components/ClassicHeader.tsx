@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 const Header = () => {
   return (
-    <header className="px-4 py-2 fixed w-full shadow-lg top-0 z-30 bg-primary text-white">
+    <header className="px-4 py-2 fixed w-full top-0 bg-primary text-white z-30">
       <Navbar />
     </header>
   )

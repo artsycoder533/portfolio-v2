@@ -1,7 +1,9 @@
+"use client";
 import React from "react";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 type Props = {
   title: string;
@@ -20,8 +22,15 @@ function ProjectCard({
   siteURL,
   github,
 }: Props) {
+
   return (
-    <div className="border flex flex-col gap-4 p-4 rounded-lg bg-white shadow-md">
+    <motion.div
+    initial={{ scale: 0.5, opacity: 0 }}
+    whileInView={{ scale: 1, opacity: 1 }}
+    viewport={{ once: true, amount: 0.5 }}
+    transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.75 }}
+      className="border flex flex-col gap-4 p-4 rounded-lg bg-white shadow-md"
+    >
       <div className="w-full">
         <Image
           src={img?.src}
@@ -67,7 +76,7 @@ function ProjectCard({
           See Code <FaGithub />
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
