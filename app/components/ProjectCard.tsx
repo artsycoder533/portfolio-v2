@@ -27,8 +27,8 @@ function ProjectCard({
     <motion.div
     initial={{ scale: 0.5, opacity: 0 }}
     whileInView={{ scale: 1, opacity: 1 }}
-    viewport={{ once: true, amount: 0.5 }}
-    transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.75 }}
+    viewport={{ once: true, amount: 0.25 }}
+    transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.25 }}
       className="border flex flex-col gap-4 p-4 rounded-lg bg-white shadow-md"
     >
       <div className="w-full">
