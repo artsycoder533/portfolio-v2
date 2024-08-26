@@ -28,7 +28,7 @@ const Hero = () => {
 
   return (
     <motion.section
-      className="h-[800px] flex justify-center items-center rounded-br-full bg-primary"
+      className="h-[100vh] sm:h-[70vh] flex justify-center items-center rounded-br-full bg-primary"
       id="home"
       initial="hidden"
       animate="visible"
