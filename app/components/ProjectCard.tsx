@@ -11,7 +11,7 @@ type Props = {
   img: StaticImageData;
   description?: string;
   siteURL: string;
-  github: string;
+  github?: string;
 };
 
 function ProjectCard({
