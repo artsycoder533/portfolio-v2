@@ -67,14 +67,14 @@ function ProjectCard({
         >
           Live Site <FaExternalLinkAlt />
         </Link>
-        <Link
+        {github && <Link
           href={github}
           rel="noopener noreferrer"
           target="_blank"
           className="flex flex-row gap-1 items-center border border-accent text-accent hover:bg-black hover:text-white rounded-xl px-4 py-3 flex-shrink-0"
         >
           See Code <FaGithub />
-        </Link>
+        </Link>}
       </div>
     </motion.div>
   );
