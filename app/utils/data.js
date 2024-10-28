@@ -31,18 +31,18 @@ export const projects = [
     title: "Ten-23 Agency LLC",
     tags: [
       "Next.js 14 App Router",
+      "On-Demand Revalidation",
       "Sanity",
+      "Sanity Webhooks",
       "TypeScript",
       "Stripe",
       "Tailwind",
       "GROQ",
-      ""
     ],
     img: ten23,
     description:
       "A custom website built for my Web Development Agency that showcases the websites I have created/revamped while freelancing for clients.  Potential clients can browse the services offered, learn about my prices and send a message that will be delivered directly to my inbox.",
     siteURL: "https://www.ten23.agency/",
-    // github: "https://github.com/artsycoder533/ten23_v2",
   },
   {
     title: "My Link Vault",
