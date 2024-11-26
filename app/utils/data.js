@@ -7,6 +7,7 @@ import letters from "../../public/images/letters.png";
 import interactiveShapes from "../../public/images/interactiveShapes.png";
 import words from "../../public/images/words.png";
 import linkVault from '../../public/images/linkVault.png'
+import qr from '../../public/images/qr.png'
 
 
 export const projects = [
@@ -144,5 +145,15 @@ export const justForFun = [
     siteURL: "https://artsycoder533.github.io/words/",
     github: "https://github.com/artsycoder533/words",
   },
-  
+  {
+    title: "Free QR Code Generator",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind"
+    ],
+    img: qr,
+    siteURL: "https://generate-free-qr-codes.netlify.app/",
+    // github: "https://github.com/artsycoder533/words",
+  },
 ]
