@@ -42,7 +42,7 @@ export const projects = [
     img: ten23,
     description:
       "A custom website built for my Web Development Agency that showcases the websites I have created/revamped while freelancing for clients.  Potential clients can browse the services offered, learn about my prices and send a message that will be delivered directly to my inbox.",
-    siteURL: "https://www.ten23.agency/",
+    siteURL: "https://ten23.agency/",
   },
   {
     title: "My Link Vault",
@@ -75,7 +75,7 @@ export const projects = [
     img: whatsNxt,
     description:
       "A custom e-commerce website built as a cheaper alternative platforms like Shopify.  Products are queried using the GROQ query language from Sanity, payments are handled through Stripe, and contact form submissions are handled through Formspree.",
-    siteURL: "https://www.whatsnxt.org/",
+    siteURL: "https://whatsnxt.org/",
     github: "https://github.com/artsycoder533/whats-nxt",
   },
  
