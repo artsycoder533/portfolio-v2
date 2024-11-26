@@ -12,6 +12,7 @@ type Props = {
   description?: string;
   siteURL: string;
   github?: string;
+  extensionURL?: string;
 };
 
 function ProjectCard({
@@ -21,6 +22,7 @@ function ProjectCard({
   description,
   siteURL,
   github,
+  extensionURL,
 }: Props) {
 
   return (
@@ -58,7 +60,7 @@ function ProjectCard({
 
       <p className="flex-grow">{description}</p>
 
-      <div className="flex flex-row gap-2 mt-auto">
+      <div className="flex flex-row flex-wrap justify-center gap-2 mt-auto">
         <Link
           href={siteURL}
           rel="noopener noreferrer"
@@ -74,6 +76,14 @@ function ProjectCard({
           className="flex flex-row gap-1 items-center border border-accent text-accent hover:bg-black hover:text-white rounded-xl px-4 py-3 flex-shrink-0"
         >
           See Code <FaGithub />
+        </Link>}
+        {extensionURL && <Link
+          href={extensionURL}
+          rel="noopener noreferrer"
+          target="_blank"
+          className="flex flex-row gap-1 items-center border border-accent text-accent hover:bg-black hover:text-white rounded-xl px-4 py-3 flex-shrink-0"
+        >
+          Extension <FaExternalLinkAlt />
         </Link>}
       </div>
     </motion.div>

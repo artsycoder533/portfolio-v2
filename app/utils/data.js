@@ -28,6 +28,24 @@ export const projects = [
     github: "https://github.com/artsycoder533/if-the-shoe-fits",
   },
   {
+    title: "My Link Vault",
+    tags: [
+      "React",
+      "Typescript",
+      "IndexedDB",
+      "Vitest",
+      "React Testing Library",
+      "Formspree",
+      "Tailwind",
+      "Chrome Extension"
+    ],
+    img: linkVault,
+    description: "Link Vault is a Chrome extension that enables users to create a list of saved links, stored in IndexedDB. Users can categorize each link by tag and category, with the webpage's title and URL automatically fetched as link data. The link list can be filtered by tag and category. When a user clicks on a link in their list, they are navigated to the link's URL in a new page.",
+    siteURL: 'https://my-link-vault.vercel.app/',
+    github: 'https://github.com/artsycoder533/my-link-vault',
+    extensionURL: 'https://chromewebstore.google.com/detail/my-link-vault/cgnjhdifiiiaepjipolnodmeccccoekk?utm_source=ext_app_menu',
+  },
+  {
     title: "Ten-23 Agency LLC",
     tags: [
       "Next.js 14 App Router",
@@ -44,23 +62,7 @@ export const projects = [
       "A custom website built for my Web Development Agency that showcases the websites I have created/revamped while freelancing for clients.  Potential clients can browse the services offered, learn about my prices and send a message that will be delivered directly to my inbox.",
     siteURL: "https://ten23.agency/",
   },
-  {
-    title: "My Link Vault",
-    tags: [
-      "React",
-      "Typescript",
-      "IndexedDB",
-      "Vitest",
-      "React Testing Library",
-      "Formspree",
-      "Tailwind",
-      "Chrome Extension"
-    ],
-    img: linkVault,
-    description: "Link Vault is a Chrome extension that enables users to create a list of saved links, stored in IndexedDB. Users can categorize each link by tag and category, with the webpage's title and URL automatically fetched as link data. The link list can be filtered by tag and category. When a user clicks on a link in their list, they are navigated to the link's URL in a new page.",
-    siteURL: 'https://my-link-vault.vercel.app/',
-    github: 'https://github.com/artsycoder533/my-link-vault'
-  },
+  
   {
     title: "WHATS NXT",
     tags: [
