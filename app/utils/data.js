@@ -146,14 +146,14 @@ export const justForFun = [
     github: "https://github.com/artsycoder533/words",
   },
   {
-    title: "Free QR Code Generator",
+    title: "Static QR",
     tags: [
       "Next.js",
       "TypeScript",
       "Tailwind"
     ],
     img: qr,
-    siteURL: "https://generate-free-qr-codes.netlify.app/",
+    siteURL: "https://freestaticqr.com",
     // github: "https://github.com/artsycoder533/words",
   },
 ]
