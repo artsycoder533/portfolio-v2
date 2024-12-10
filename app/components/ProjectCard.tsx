@@ -29,16 +29,15 @@ function ProjectCard({
     <motion.div
     initial={{ scale: 0.5, opacity: 0 }}
     whileInView={{ scale: 1, opacity: 1 }}
-    viewport={{ once: true, amount: 0.25 }}
-    transition={{ duration: 0.5, ease: 'easeInOut', delay: 0.25 }}
+    viewport={{ once: true, amount: 0.15 }}
+    transition={{ duration: 0.5, ease: 'easeInOut', delay: 0 }}
       className="border flex flex-col gap-4 p-4 rounded-lg bg-white shadow-md"
     >
-      <div className="w-full">
+      <div className="relative w-full h-72">
         <Image
           src={img?.src}
-          width={800}
-          height={250}
-          className="object-cover"
+          fill
+          className="object-cover aspect-video"
           alt={`${title} home page`}
           priority
         />
