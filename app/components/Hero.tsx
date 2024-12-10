@@ -28,23 +28,23 @@ const Hero = () => {
 
   return (
     <motion.section
-      className="h-[100vh] sm:h-[80vh] flex justify-center items-center rounded-br-full bg-primary"
+      className="h-[100vh] sm:h-[80vh] flex justify-center items-center rounded-br-full bg-white"
       id="home"
       initial="hidden"
       animate="visible"
       variants={containerVariants}
     >
       <motion.div
-        className="flex flex-col justify-between max-w-[1400px] w-[90vw] mx-auto gap-3 text-white"
+        className="flex flex-col justify-between max-w-[1400px] w-[90vw] mx-auto gap-3 "
         variants={containerVariants}
       >
         <motion.h1
-          className={`text-7xl lg:text-8xl font-semibold text-white first-letter:text-accent ${anton.className}`}
+          className={`text-7xl lg:text-8xl font-semibold  first-letter:text-accent ${anton.className}`}
           variants={itemVariants}
         >
           Natasha Johnson
         </motion.h1>
-        <motion.p className="text-lg md:text-2xl text-white font-light" variants={itemVariants}>
+        <motion.p className="text-lg md:text-2xl  font-light" variants={itemVariants}>
           Software Engineer @{" "}
           <Link
             href="https://www.township.agency"
@@ -64,7 +64,7 @@ const Hero = () => {
         <motion.div className="mt-12 flex flex-row gap-4" variants={itemVariants}>
           <Link
             href="#projects"
-            className="bg-accent text-white rounded-xl px-4 py-3 hover:bg-white hover:text-accent animate-bounce flex items-center gap-2"
+            className="bg-accent text-white rounded-xl px-4 py-3 hover:bg-black animate-bounce flex items-center gap-2"
           >
             View Projects <FaArrowDown />
           </Link>
