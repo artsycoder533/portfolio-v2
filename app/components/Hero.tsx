@@ -14,21 +14,21 @@ const Hero = () => {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.3,
+        duration: 0.2,
         when: "beforeChildren",
-        staggerChildren: 0.3,
+        staggerChildren: 0.2,
       },
     },
   };
 
   const itemVariants = {
     hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.2 } },
   };
 
   return (
     <motion.section
-      className="h-[100vh] sm:h-[70vh] flex justify-center items-center rounded-br-full bg-primary"
+      className="h-[100vh] sm:h-[80vh] flex justify-center items-center rounded-br-full bg-primary"
       id="home"
       initial="hidden"
       animate="visible"
@@ -64,7 +64,7 @@ const Hero = () => {
         <motion.div className="mt-12 flex flex-row gap-4" variants={itemVariants}>
           <Link
             href="#projects"
-            className="bg-accent text-white rounded-xl px-4 py-3 hover:bg-black animate-bounce flex items-center gap-2"
+            className="bg-accent text-white rounded-xl px-4 py-3 hover:bg-white hover:text-accent animate-bounce flex items-center gap-2"
           >
             View Projects <FaArrowDown />
           </Link>

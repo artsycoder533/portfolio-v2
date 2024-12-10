@@ -23,7 +23,7 @@ const Skills = () => {
         initial={{  color: 'gray' }}
         whileInView={{  color: '#C1292E' }}
         viewport={{ once: true, amount: 1 }}
-        transition={{ duration: 5,  ease: "easeInOut" }}
+        transition={{ duration: 5,  ease: "anticipate" }}
         exit={{color: 'gray'}}
         className="max-w-[1400px] w-[90vw] mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 justify-center text-2xl font-medium text-accent gap-16"
       >
