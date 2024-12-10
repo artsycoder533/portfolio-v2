@@ -8,12 +8,13 @@
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #000;
+  background: #fff;
   /* border: 1px solid #fff; */
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #c1292e;
+  border: 1px solid white;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
