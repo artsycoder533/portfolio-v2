@@ -1,4 +1,3 @@
-import shoes from "../../public/images/shoes.png";
 import first from "../../public/images/1st-third.png";
 import ten23 from "../../public/images/ten23.png";
 import etchASketch from "../../public/images/etchASketch.png";
@@ -41,23 +40,7 @@ export const projects = [
     siteURL: 'https://my-link-vault.vercel.app/',
     github: 'https://github.com/artsycoder533/my-link-vault',
     extensionURL: 'https://chromewebstore.google.com/detail/my-link-vault/cgnjhdifiiiaepjipolnodmeccccoekk?utm_source=ext_app_menu',
-  },
-  {
-    title: "If The Shoe Fits",
-    tags: [
-      "Next.js 14 App Router",
-      "Shopify Storefront API",
-      "TypeScript",
-      "GraphQL",
-      "Tailwind",
-      "Formspree",
-    ],
-    img: shoes,
-    description:
-      "A custom Shopify E-commerce storefront where shoe enthusiasts can shop for one of a kind sneakers and boots. Products are queried from the Shopify Storefront API using GraphQL.  Users are redirected tdo Shopify checkout when completing to complete a purchase.",
-    siteURL: "https://iftheshoefits.vercel.app/",
-    github: "https://github.com/artsycoder533/if-the-shoe-fits",
-  },  
+  }, 
   {
     title: "1st & Third",
     tags: [
