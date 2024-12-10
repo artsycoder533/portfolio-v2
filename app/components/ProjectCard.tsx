@@ -37,7 +37,7 @@ function ProjectCard({
         <Image
           src={img?.src}
           fill
-          className="object-cover aspect-video"
+          className="object-contain lg:objecct-cover aspect-video"
           alt={`${title} home page`}
           priority
         />
